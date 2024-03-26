@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333; /* Text color for better visibility */
+}
+
+header {
+    background-color: #0098CC; /* Change this to your desired color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+header h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding-top: 40px; /* Add extra padding on top */
+}
+
+
+section {
+    padding: 40px 0;
+    margin-bottom: 40px; 
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #003366; /* Dark blue heading color */
+}
+
+section p {
+    color: #555; /* Dark gray paragraph color */
+}
+
+footer {
+    background-color: #4a90e2; /* Light blue footer */
+    color: #4a90e2;
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+/* Fish Images */
+.fish-img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjusting input fields */
+.input-group {
+    margin-bottom: 20px; /* Add margin between input groups */
+}
+
+label {
+    display: block; /* Make labels display as block elements */
+    text-align: left; /* Align labels to the left */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%; /* Set input fields width */
+    padding: 10px;
+    margin: 10px auto; /* Center the input fields */
+    display: block; /* Make input fields display as block elements */
+}
+
+button[type="submit"] {
+    padding: 12px 24px; /* Increase padding to make it bigger */
+    background-color: #4a90e2; /* Light blue background */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer;
+    display: block; /* Make button display as block element */
+    margin: auto; /* Center the button */
+}
+
+/* Hover effect for the login button */
+button[type="submit"]:hover {
+    background-color: #357ae8; /* Darker blue background on hover */
+}
